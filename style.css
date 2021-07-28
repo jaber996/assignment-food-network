@@ -1,0 +1,168 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Navbar main area */
+.navbar-main-area{
+    display: flex;
+    background-color: #f50056e5;
+}
+.navber-item a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.navbar-area{
+    width:50%;
+    margin-left: 5%;
+    padding: 0 5% 0 5%;
+}
+
+/* Logo Foundation */
+.navbar-logo{
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+     
+}
+.navbar-logo span{
+    color: #F50057;
+}
+
+/* A Discover-Area Section */
+.discover-area{
+    display: flex; 
+    margin-bottom: 150px;  
+}
+
+.discover-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.discover-item img{
+    width: 80%;
+    margin: 0;
+    margin-left: 4%;
+}
+
+.discover-item h1{
+    font-size: 50px;
+    
+}
+
+.discover-item p{
+    text-align: justify;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.discover-color{
+    color: #F50057;
+}
+
+.discover-button{
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+    border-radius: 5px;
+    padding: 10px 40px;
+    background-image: linear-gradient(#F50057,#720b2f);
+}
+
+/* A Event-Area Section */
+.event-area{
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+/* A Recipes-Main-Area Section */
+.recipes-area{
+    display: flex;   
+    margin-bottom: 200px;
+}
+
+.recipes-item img{
+    width: 90%;
+    padding:5% 5% 0 5%;
+    
+}
+
+.recipes-item{
+    width: 25%;
+    box-shadow: 10px 10px 50px #f5005641;
+    margin-left: 6.4%;
+    border-radius: 20px;
+}
+
+.recipes-item p{
+    padding: 0 5%;
+    text-align: justify;
+}
+.recipes-item h3 {
+    padding: 0 5%;
+    
+}
+.recipes-main-area h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.recipes-paragraph {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 50px;
+}
+
+/* A Optional-Area */
+.optional-item{
+    box-shadow: 10px 10px 50px #f5005641;
+    width: 78%;
+    height: 200px;
+    margin-left: 10%;
+    border-radius: 20px;
+    padding-left:20px ;
+}
+.optional-text{
+    padding-left: 14%;
+    padding-top: 40px;
+}
+.optional-text span{
+    margin-top:100px ;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.optional-images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%; 
+}
+
+/* A Footer */
+footer{
+    background-color: black;
+    height: 250px;
+    
+}
+.country-color{
+    color: #F50057;
+}
+.footer-color{
+    color: white;
+   text-align: center;
+   padding-top:40px;
+}
